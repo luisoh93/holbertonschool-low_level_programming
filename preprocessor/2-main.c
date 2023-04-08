@@ -6,7 +6,7 @@
  * Return: Always 0(Succes)
  */
 
-int ain(void)
+int main(void) /* @main: macro structures */
 {
 	printf("%s\n", __FILE__);
 	return (0);
