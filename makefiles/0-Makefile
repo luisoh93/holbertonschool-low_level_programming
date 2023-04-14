@@ -1,13 +1,4 @@
-school: main.o student.o teacher.o
-	gcc -o school main.o student.o teacher.o
+# -*- Makefile -*-
 
-main.o: main.c student.h teacher.h
-	gcc -c main.c
-
-student.o: student.c student.h
-	gcc -c student.c
-
-teacher.o: teacher.c teacher.h
-	gcc -c teacher.c
-
-all: school
+all: main.c holberton.c m.h
+	gcc main.c holberton.c -o holberton
